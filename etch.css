@@ -1,11 +1,22 @@
+body {
+	line-height: 0;
+}
+
+.outer-container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.container {
+	background-color: black;
+}
+
 .tile {
-	width: 30px;
-	height: 30px;
-	/*margin: 1px 1px -4px 0px;*/
-	margin: 0px;
-	background-color: red;
+	background-color: #E8E8E8;
 	display: inline-block;
-	border: 1px solid white;
 }
 
 .row {
